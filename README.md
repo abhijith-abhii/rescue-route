@@ -120,3 +120,7 @@ Useful next work: incorporate a road travel-time matrix, compare against a matur
 ## Contribution
 
 AI generated implementation, tests and documentation under Abhijith's direction. The repository records working behavior and experiments; it does not establish independent coding proficiency. The learning guide supports tracing, reproducing and extending the implementation.
+
+## Connect
+
+[LinkedIn — Abhijith Viswanathan](https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/)
