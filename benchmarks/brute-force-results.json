@@ -1,0 +1,253 @@
+{
+  "measured_at": "2026-10-18T10:56:15.885536+00:00",
+  "source_commit": "0895c06264a4f5e89fd8b56b4ca3482d412280c1",
+  "environment": {
+    "python": "3.12.14",
+    "system": "Darwin",
+    "architecture": "arm64"
+  },
+  "workload": "All seeds 0\u20139, 8 fictional stops, 1 vehicle, broad windows, 3 paired trials per seed with alternating order. Same data, distance model and schedule feasibility checks. Heuristic timer includes baseline plus improvement. In-process, no HTTP.",
+  "summary": {
+    "exact_median_of_case_medians_ms": 257.19293754082173,
+    "heuristic_median_of_case_medians_ms": 0.7848545210435987,
+    "runtime_reduction_percent": 99.6948382297943,
+    "runtime_ratio": 327.6950449350023,
+    "mean_distance_gap_percent": 8.881784197001252e-15,
+    "maximum_distance_gap_percent": 2.220446049250313e-14,
+    "cases_matching_optimum": 10,
+    "case_count": 10
+  },
+  "cases": [
+    {
+      "seed": 0,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 252.85141705535352,
+      "heuristic_median_ms": 0.8293751161545515,
+      "exact_modelled_km": 65.29947806335058,
+      "heuristic_modelled_km": 65.29947806335059,
+      "distance_gap_percent": 2.220446049250313e-14,
+      "paired_timings_ms": {
+        "exact": [
+          252.85141705535352,
+          252.4314159527421,
+          256.245540920645
+        ],
+        "heuristic": [
+          0.8293751161545515,
+          0.7602078840136528,
+          0.8505419827997684
+        ]
+      },
+      "feasibility": "independent audit passed"
+    },
+    {
+      "seed": 1,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 257.3143329937011,
+      "heuristic_median_ms": 0.5520419217646122,
+      "exact_modelled_km": 66.49748642492762,
+      "heuristic_modelled_km": 66.49748642492762,
+      "distance_gap_percent": 0,
+      "paired_timings_ms": {
+        "exact": [
+          257.2267500218004,
+          257.3143329937011,
+          257.8852919396013
+        ],
+        "heuristic": [
+          0.5768341943621635,
+          0.5520419217646122,
+          0.5264580249786377
+        ]
+      },
+      "feasibility": "independent audit passed"
+    },
+    {
+      "seed": 2,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 255.68975019268692,
+      "heuristic_median_ms": 0.36649988032877445,
+      "exact_modelled_km": 59.06776537993907,
+      "heuristic_modelled_km": 59.06776537993907,
+      "distance_gap_percent": 0,
+      "paired_timings_ms": {
+        "exact": [
+          255.68975019268692,
+          255.26620890013874,
+          258.20599985308945
+        ],
+        "heuristic": [
+          0.36649988032877445,
+          0.3356670495122671,
+          0.5016669165343046
+        ]
+      },
+      "feasibility": "independent audit passed"
+    },
+    {
+      "seed": 3,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 256.7537499126047,
+      "heuristic_median_ms": 0.5777920596301556,
+      "exact_modelled_km": 72.15189282886946,
+      "heuristic_modelled_km": 72.15189282886948,
+      "distance_gap_percent": 2.220446049250313e-14,
+      "paired_timings_ms": {
+        "exact": [
+          256.7537499126047,
+          258.15366697497666,
+          256.6268751397729
+        ],
+        "heuristic": [
+          0.5596249829977751,
+          0.5997500848025084,
+          0.5777920596301556
+        ]
+      },
+      "feasibility": "independent audit passed"
+    },
+    {
+      "seed": 4,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 258.23241705074906,
+      "heuristic_median_ms": 1.2495419941842556,
+      "exact_modelled_km": 69.01566019569198,
+      "heuristic_modelled_km": 69.01566019569198,
+      "distance_gap_percent": 0,
+      "paired_timings_ms": {
+        "exact": [
+          256.97170896455646,
+          258.23241705074906,
+          261.1423749476671
+        ],
+        "heuristic": [
+          1.2447501067072153,
+          1.2747920118272305,
+          1.2495419941842556
+        ]
+      },
+      "feasibility": "independent audit passed"
+    },
+    {
+      "seed": 5,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 257.07154208794236,
+      "heuristic_median_ms": 0.9887500200420618,
+      "exact_modelled_km": 65.99371601132653,
+      "heuristic_modelled_km": 65.99371601132654,
+      "distance_gap_percent": 2.220446049250313e-14,
+      "paired_timings_ms": {
+        "exact": [
+          256.7099160514772,
+          259.36320913024247,
+          257.07154208794236
+        ],
+        "heuristic": [
+          0.9887500200420618,
+          1.0190419852733612,
+          0.9776251390576363
+        ]
+      },
+      "feasibility": "independent audit passed"
+    },
+    {
+      "seed": 6,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 256.814916850999,
+      "heuristic_median_ms": 1.2720839586108923,
+      "exact_modelled_km": 55.658127226198104,
+      "heuristic_modelled_km": 55.65812722619811,
+      "distance_gap_percent": 2.220446049250313e-14,
+      "paired_timings_ms": {
+        "exact": [
+          260.70250011980534,
+          256.814916850999,
+          255.19095780327916
+        ],
+        "heuristic": [
+          1.3142498210072517,
+          1.2720839586108923,
+          1.25662493519485
+        ]
+      },
+      "feasibility": "independent audit passed"
+    },
+    {
+      "seed": 7,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 257.8680000733584,
+      "heuristic_median_ms": 0.7819170132279396,
+      "exact_modelled_km": 61.66240580231039,
+      "heuristic_modelled_km": 61.66240580231039,
+      "distance_gap_percent": 0,
+      "paired_timings_ms": {
+        "exact": [
+          257.4676659423858,
+          258.55283299461007,
+          257.8680000733584
+        ],
+        "heuristic": [
+          0.7656249217689037,
+          0.8374580647796392,
+          0.7819170132279396
+        ]
+      },
+      "feasibility": "independent audit passed"
+    },
+    {
+      "seed": 8,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 257.8678340651095,
+      "heuristic_median_ms": 0.7877920288592577,
+      "exact_modelled_km": 76.55999582507708,
+      "heuristic_modelled_km": 76.55999582507708,
+      "distance_gap_percent": 0,
+      "paired_timings_ms": {
+        "exact": [
+          257.8678340651095,
+          258.3740421105176,
+          256.60920795053244
+        ],
+        "heuristic": [
+          0.7877920288592577,
+          0.7585419807583094,
+          0.8472909685224295
+        ]
+      },
+      "feasibility": "independent audit passed"
+    },
+    {
+      "seed": 9,
+      "stops": 8,
+      "exact_orders_evaluated": 40320,
+      "exact_median_ms": 259.73541708663106,
+      "heuristic_median_ms": 0.5636250134557486,
+      "exact_modelled_km": 61.236819525160435,
+      "heuristic_modelled_km": 61.236819525160435,
+      "distance_gap_percent": 0,
+      "paired_timings_ms": {
+        "exact": [
+          258.52391705848277,
+          259.73541708663106,
+          260.5533329769969
+        ],
+        "heuristic": [
+          0.5636250134557486,
+          0.5990001372992992,
+          0.5553329829126596
+        ]
+      },
+      "feasibility": "independent audit passed"
+    }
+  ],
+  "limits": "Exhaustive is optimal for the bounded single-vehicle case; heuristic is not guaranteed optimal. Report route-quality gaps alongside speed. Not an exact multi-vehicle solver or measured road, fuel, revenue or production outcome."
+}
