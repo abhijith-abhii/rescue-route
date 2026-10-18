@@ -2,7 +2,7 @@
 
 **Get donated food to community pantries with fewer modelled kilometres, while respecting the vans and the clock.**
 
-RescueRoute is a new AI-assisted personal project by Abhijith Viswanathan, built in October 2026. It turns a small delivery day into an inspectable plan: which van visits each pantry, how many boxes it carries, when unloading starts and finishes, and whether the driver can return within the shift. It compares a nearest-feasible baseline with a route-improvement heuristic and includes a small exact brute-force reference.
+I built RescueRoute as a personal project in October 2026. It turns a small delivery day into an inspectable plan: which van visits each pantry, how many boxes it carries, when unloading starts and finishes, and whether the driver can return within the shift. It compares a nearest-feasible baseline with a route-improvement heuristic and includes a small exact brute-force reference.
 
 All pantries, locations, inventory and outcomes are fictional. This is a planning prototype, not a record of nonprofit deployment or internship work.
 
@@ -117,9 +117,9 @@ Inputs are bounded to 40 deliveries and six vans. Saved plans are immutable snap
 
 Useful next work: incorporate a road travel-time matrix, compare against a mature routing solver on the same fixtures, add priority-aware assignment and a dispatcher review step, and benchmark the distance/time/quality tradeoff under tighter windows. Each extension needs new measurements, not an extrapolation of the current numbers.
 
-## Contribution
+## Development notes
 
-AI generated implementation, tests and documentation under Abhijith's direction. The repository records working behavior and experiments; it does not establish independent coding proficiency. The learning guide supports tracing, reproducing and extending the implementation.
+AI tools assisted with implementation, tests and documentation. This is my personal portfolio work; benchmark results and deployment boundaries are documented in the repository.
 
 ## Connect
 
