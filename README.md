@@ -2,7 +2,7 @@
 
 **Get donated food to community pantries with fewer modelled kilometres, while respecting the vans and the clock.**
 
-I built RescueRoute as a personal project in October 2026. It turns a small delivery day into an inspectable plan: which van visits each pantry, how many boxes it carries, when unloading starts and finishes, and whether the driver can return within the shift. It compares a nearest-feasible baseline with a route-improvement heuristic and includes a small exact brute-force reference.
+Built RescueRoute as a personal project in October 2026. It turns a small delivery day into an inspectable plan: which van visits each pantry, how many boxes it carries, when unloading starts and finishes, and whether the driver can return within the shift. It compares a nearest-feasible baseline with a route-improvement heuristic and includes a small exact brute-force reference.
 
 All pantries, locations, inventory and outcomes are fictional. This is a planning prototype, not a record of nonprofit deployment or internship work.
 
